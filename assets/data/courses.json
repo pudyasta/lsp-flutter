@@ -1,0 +1,168 @@
+[
+  {
+    "id": "flutter_basics",
+    "title": "Flutter Basics",
+    "description": "Learn the fundamentals of Flutter development from scratch",
+    "iconUrl": "🎨",
+    "difficulty": "Beginner",
+    "totalLessons": 10,
+    "category": "Mobile Development",
+    "lessons": [
+      {
+        "id": "lesson_1",
+        "title": "Introduction to Flutter",
+        "content": "Flutter is Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase. Created in 2017, Flutter has quickly become one of the most popular frameworks for cross-platform development.\n\nFlutter uses Dart programming language and provides a rich set of pre-built widgets that make it easy to create stunning user interfaces. The framework's hot reload feature allows developers to see changes instantly, making development faster and more enjoyable.",
+        "xpReward": 50,
+        "isLocked": false,
+        "keyPoints": [
+          "Cross-platform development with a single codebase",
+          "Hot reload for instant feedback",
+          "Rich widget library",
+          "Native performance",
+          "Growing community and ecosystem"
+        ]
+      },
+      {
+        "id": "lesson_2",
+        "title": "Widgets Deep Dive",
+        "content": "In Flutter, everything is a widget! Widgets are the building blocks of Flutter applications. There are two main types of widgets: StatelessWidget and StatefulWidget.\n\nStatelessWidget is immutable and doesn't change over time, while StatefulWidget can change dynamically based on user interaction or data changes. Understanding widgets is crucial to mastering Flutter development.",
+        "xpReward": 75,
+        "isLocked": false,
+        "keyPoints": [
+          "Everything is a widget",
+          "StatelessWidget vs StatefulWidget",
+          "Widget tree structure",
+          "Material Design and Cupertino widgets",
+          "Custom widget creation"
+        ]
+      },
+      {
+        "id": "lesson_3",
+        "title": "Layouts and Positioning",
+        "content": "Flutter provides powerful layout widgets to arrange UI elements on the screen. Common layout widgets include Column, Row, Stack, Container, and more. Understanding how these work together is essential for creating complex UIs.",
+        "xpReward": 75,
+        "isLocked": false,
+        "keyPoints": [
+          "Column and Row for linear layouts",
+          "Stack for overlapping widgets",
+          "Container for styling and padding",
+          "Flexible and Expanded for responsive design"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dart_mastery",
+    "title": "Dart Mastery",
+    "description": "Master the Dart programming language from beginner to advanced",
+    "iconUrl": "🎯",
+    "difficulty": "Intermediate",
+    "totalLessons": 15,
+    "category": "Programming",
+    "lessons": [
+      {
+        "id": "dart_lesson_1",
+        "title": "Variables and Types",
+        "content": "Dart is a strongly-typed programming language that supports both static and dynamic typing. Learn about primitive types like int, double, String, and bool, as well as complex types like List, Map, and custom classes.\n\nDart also features type inference with the 'var' keyword, making code more concise while maintaining type safety.",
+        "xpReward": 60,
+        "isLocked": false,
+        "keyPoints": [
+          "Primitive data types",
+          "Type inference with var",
+          "Collections: List, Set, Map",
+          "Null safety",
+          "Type casting"
+        ]
+      },
+      {
+        "id": "dart_lesson_2",
+        "title": "Functions and Methods",
+        "content": "Functions are first-class citizens in Dart. You can assign them to variables, pass them as arguments, and return them from other functions. Dart supports named parameters, optional parameters, and arrow syntax for concise function definitions.",
+        "xpReward": 70,
+        "isLocked": false,
+        "keyPoints": [
+          "Function declaration and invocation",
+          "Named and optional parameters",
+          "Arrow functions",
+          "Higher-order functions",
+          "Anonymous functions and closures"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ui_design",
+    "title": "UI/UX Design Principles",
+    "description": "Create beautiful and user-friendly mobile app interfaces",
+    "iconUrl": "🎨",
+    "difficulty": "Beginner",
+    "totalLessons": 8,
+    "category": "Design",
+    "lessons": [
+      {
+        "id": "design_lesson_1",
+        "title": "Design Fundamentals",
+        "content": "Good design is about more than just aesthetics—it's about creating intuitive, accessible, and delightful user experiences. Learn the core principles of visual hierarchy, color theory, typography, and spacing.",
+        "xpReward": 55,
+        "isLocked": false,
+        "keyPoints": [
+          "Visual hierarchy",
+          "Color theory and psychology",
+          "Typography basics",
+          "White space and spacing",
+          "Consistency in design"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "state_management",
+    "title": "State Management",
+    "description": "Master state management patterns in Flutter applications",
+    "iconUrl": "⚙️",
+    "difficulty": "Advanced",
+    "totalLessons": 12,
+    "category": "Mobile Development",
+    "lessons": [
+      {
+        "id": "state_lesson_1",
+        "title": "Introduction to State",
+        "content": "State management is one of the most important concepts in Flutter development. State refers to data that can change over time and affects what's displayed on screen. Learn about different state management solutions like Provider, Riverpod, Bloc, and GetX.",
+        "xpReward": 80,
+        "isLocked": false,
+        "keyPoints": [
+          "What is state?",
+          "Local vs global state",
+          "State management patterns",
+          "Choosing the right solution",
+          "Best practices"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "animations",
+    "title": "Flutter Animations",
+    "description": "Bring your apps to life with smooth, engaging animations",
+    "iconUrl": "✨",
+    "difficulty": "Intermediate",
+    "totalLessons": 10,
+    "category": "Mobile Development",
+    "lessons": [
+      {
+        "id": "anim_lesson_1",
+        "title": "Animation Basics",
+        "content": "Animations make apps feel alive and responsive. Flutter provides powerful animation APIs including implicit animations, explicit animations, and hero animations. Learn how to create smooth, performant animations that enhance user experience.",
+        "xpReward": 70,
+        "isLocked": false,
+        "keyPoints": [
+          "Implicit vs explicit animations",
+          "Animation controllers",
+          "Tween animations",
+          "Curves and easing",
+          "Performance considerations"
+        ]
+      }
+    ]
+  }
+]

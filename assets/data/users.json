@@ -1,0 +1,15 @@
+[
+  {
+    "id": "user_1",
+    "username": "demo",
+    "email": "demo@duolingo.com",
+    "password": "demo123",
+    "xp": 1250,
+    "streak": 7,
+    "level": 3,
+    "enrolledCourses": ["flutter_basics", "dart_mastery"],
+    "completedLessons": ["lesson_1", "lesson_2"],
+    "earnedBadges": ["first_lesson", "streak_3"],
+    "lastActiveDate": "2024-01-15T10:30:00.000Z"
+  }
+]

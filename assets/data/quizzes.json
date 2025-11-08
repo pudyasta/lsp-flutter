@@ -1,0 +1,40 @@
+[
+  {
+    "id": "quiz_1",
+    "lessonId": "lesson_1",
+    "xpReward": 50,
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What programming language does Flutter use?",
+        "options": ["Java", "Kotlin", "Dart", "Swift"],
+        "correctAnswerIndex": 2,
+        "explanation": "Flutter uses Dart, a modern programming language developed by Google."
+      },
+      {
+        "id": "q2",
+        "question": "What is the main advantage of Flutter's hot reload?",
+        "options": [
+          "Better app performance",
+          "Instant UI updates during development",
+          "Smaller app size",
+          "Better battery efficiency"
+        ],
+        "correctAnswerIndex": 1,
+        "explanation": "Hot reload allows developers to see UI changes instantly without restarting the app."
+      },
+      {
+        "id": "q3",
+        "question": "Flutter allows you to build apps for which platforms?",
+        "options": [
+          "Only mobile",
+          "Mobile and web only",
+          "Mobile, web, and desktop",
+          "Only Android"
+        ],
+        "correctAnswerIndex": 2,
+        "explanation": "Flutter supports building applications for mobile, web, and desktop from a single codebase."
+      }
+    ]
+  }
+]
